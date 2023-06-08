@@ -5,9 +5,7 @@ import './index.css';
 
 
 function App() {
-  
   const result = React.useState('Yes');
-
   const [randomArr, setRandomArr] = React.useState(['Random1', 'Random2']);
 
   const addRandom = () => {
